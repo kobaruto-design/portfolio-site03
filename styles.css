@@ -178,10 +178,21 @@ header .container {
     margin-top: 70px;
 }
 
-.hero-title {
-    font-size: 3rem;
-    margin-bottom: 20px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+.hero-title-main {
+    font-size: 2.2rem;
+    font-weight: 700;
+    display: block;
+}
+
+.hero-title-sub {
+    font-size: 1.5rem;
+    font-weight: 500;
+    display: block;
+}
+
+.hero-subtitle-main,
+.hero-subtitle-sub {
+    display: block;
 }
 
 .hero-subtitle {
@@ -527,7 +538,7 @@ footer {
 
 /* レスポンシブデザイン */
 @media (max-width: 992px) {
-    .hero-title {
+    .hero-title-main {
         font-size: 2.5rem;
     }
     
@@ -550,7 +561,7 @@ footer {
         padding: 60px 0;
     }
     
-    .hero-title {
+    .hero-title-main {
         font-size: 2rem;
     }
     
@@ -564,12 +575,17 @@ footer {
         min-height: 500px;
     }
     
-    .hero-title {
-        font-size: 1.8rem;
+    .hero-title-main {
+        font-size: 1.3rem;
     }
     
-    .hero-subtitle {
-        font-size: 1rem;
+    .hero-title-sub {
+        font-size: 1.1rem;
+    }
+    
+    .hero-subtitle-main,
+    .hero-subtitle-sub {
+        font-size: 0.95rem;
     }
     
     .section-title {
