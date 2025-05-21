@@ -576,18 +576,18 @@ footer {
     }
     
     .hero-title-main {
-        font-size: 1.1rem;
-        line-height: 1.6;
+        font-size: 1.25rem;
+        line-height: 1.4;
         margin-bottom: 0.2em;
     }
     .hero-title-sub {
-        font-size: 1rem;
-        line-height: 1.6;
+        font-size: 1.15rem;
+        line-height: 1.4;
     }
     .hero-subtitle-main,
     .hero-subtitle-sub {
-        font-size: 0.95rem;
-        line-height: 1.6;
+        font-size: 0.98rem;
+        line-height: 1.5;
     }
     
     .section-title {
