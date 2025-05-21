@@ -579,4 +579,10 @@ footer {
     .feature-card, .pricing-card, .testimonial-card {
         padding: 20px;
     }
+}
+
+/* PCのみ改行を表示 */
+.pc-only { display: inline; }
+@media (max-width: 600px) {
+  .pc-only { display: none; }
 } 
